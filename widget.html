@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather-widget</title>
+    <style>
+        .widget {
+            display: block;
+            width: 350px;
+            height: 480px;
+            text-decoration: none;
+        }
+        .temp-day {
+            width: 350px;
+            height: 380px;
+            background-color:#b3ffff;
+            border-radius: 25px;
+            background-image: radial-gradient(
+                circle at top left,
+                white, yellow,
+                transparent 60%);
+        }
+        .temp {
+            color: #ff9933;
+            font-size: 50px;
+            padding-top: 180px;
+            padding-left: 230px;
+        }
+        .day {
+            color: black;
+            font-size: 50px;
+            padding-left: 230px;
+        }
+        .title {
+            text-align: center;
+            font-size: 70px;
+            margin-top: 5px;
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <a class="widget" href="">
+        <div class="temp-day">
+            <div class="temp">35℃</div>
+            <div class="day">Tue</div>
+            <div style="font-size: 20px;padding-top: 20px;">
+                <span style="padding-left: 50px;color: black;">Wed</span> <span style="padding-left: 50px;color: black;">Thu</span> <span style="padding-left: 55px;color: black;">Chisinau</span><br>
+                <span style="padding-left: 60px;color:white;">☁</span> <span style="padding-left: 60px;">☔</span> <span style="padding-left: 65px;font-size: 15px;color: black;">3 august</span>
+            </div>
+        </div>
+        <h3 class="title">Weather</h3>
+    </a>
+</body>
+</html>
